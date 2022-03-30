@@ -1,13 +1,13 @@
 # F1-Racing-Wins
-##Introduction
+## Introduction
 
 The goal of this project was to understand and analyze our data of F1 races and models for predicting how a driver will place in a race based on the effects of various factors.
 
-##Data Cleanup and Prep 
+## Data Cleanup and Prep 
 
 Our data was pulled from a F1 dataset on Kaggle. This included 13 separate csvs on races from 1950 to 2017. It included information on drivers, constructors, race results, circuits, pit stops, laps and much more. This data was merged and columns with inconsistent types were formatted. To better understand drivers and how they perform in races, featured engineering was used to create age and is_home columns. Age is the age of the drivers and is_home is whether or not the driver was racing in their home country. 
 
-##Data Features Explanations 
+## Data Features Explanations 
 
 **raceId:** Foreign key link to races table
 **year:** Year linked to seasons
@@ -54,11 +54,11 @@ Our data was pulled from a F1 dataset on Kaggle. This included 13 separate csvs 
 **constructorStanding_wins:** Total wins a constructor has
 **status:** Driver status in a race(disqualyfied/finished/collision/engine,ect)
 
-##Data Analysis
+## Data Analysis
 
 To explore the data and their relationships to the driver’s final position in a race, analysis of various columns was performed. General trends found were that driver's racing in their home countries have a better chance of winning, some constructors do better consistently so driving for them gives you an advantage, qualifying rounds can really help or really harm your chances of winning, and British and Finnish drivers had the best average final position.
 
-##Models
+## Models
 
 For this project we wanted to predict the final position of drivers. We began our model process by finding the columns which best correlated with the final position. We excluded result points as that is the equivalent to the final position.
 The following columns were used in model: year, age, is_home, lap_milliseconds, circuit_name, grid, rank, fastestLapTime, fastestLap, wins, nationality, nationality, qual_position, q1, q2, q3, status, lap_position
