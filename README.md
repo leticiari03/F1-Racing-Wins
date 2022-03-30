@@ -10,48 +10,91 @@ Our data was pulled from a F1 dataset on Kaggle. This included 13 separate csvs 
 ## Data Features Explanations 
 
 **raceId:** Foreign key link to races table
+
 **year:** Year linked to seasons
+
 **round:** Round number
+
 **circuitId:** Link to circuits approved by FIA
+
 **race_name:** Race name
+
 **date:** Race date
+
 **race_time:** Race start time
+
 **driverId:** Foreign key link to driver
+
 **lap:** Which lap it is on the race
+
 **lap_position:** Lap position a driver is in for that lap
+
 **lap_milliseconds:** Lap time in milliseconds
+
 **circuitRef:** Circuit name abbreviation
+
 **circuit_name:** Name of the circuit
+
 **location:** Location of the circuit
+
 **country:** Country a race is placed
+
 **grid:** Determined order of car placement at the start of the race
+
 **final_position:** The position in which a driver finished the race
+
 **result_points:** Driver points for season
+
 **total_laps:** The number of laps in a race
+
 **result_milliseconds:** Final race time per driver in milliseconds
+
 **fastestLap:** Identifies which lap number was the driver's fastest for the race
+
 **rank:** A driver's rank based on performance
+
 **fastestLapTime:** Lap time in milliseconds for the driver's fastest lap in the race
+
 **fastestLapSpeed:** Lap speed in kilometers for the driver's fastest lap in the race
+
 **driverRef:** Unique driver
+
 **forename:** Driver forename
+
 **surname:** Driver surname
+
 **dob:** Driver date of birth
+
 **nationality:** Driver nationality
+
 **points:** Constructor points for race
+
 **position:** Constructor standings position
+
 **wins:** Season win count
+
 **qualifyId:** Primary key
+
 **qual_position:** Qualifying position
+
 **q1:** First round of qualifying lap time (where the 5 slowest drivers are eliminated lap time)
-**q2:** Second round of qualifying lap time
-**q3:** Last of the drivers compete in this third and final qualifying round lap time
+
+**q2:** Second round of qualifying lap time (where the 5 slowest drivers are eliminated lap time)
+
+**q3:** Last of the drivers compete in this third and final qualifying round for their position on the starting grid
+
 **constructor_name:** Constructor is the owner of the engine and team
+
 **constructor_nationality:** Nationality of each Constructor
+
 **constructor_points:** Constructor points earned from a race from both races they own.
+
 **constructorStanding_points:** Total points a constructor has in comparison to other constructors
+
 **constructorStanding_position:** Constructors position (ex. first place position) against other constructors
+
 **constructorStanding_wins:** Total wins a constructor has
+
 **status:** Driver status in a race(disqualyfied/finished/collision/engine,ect)
 
 ## Data Analysis
