@@ -68,3 +68,5 @@ To begin a simple prediction we used a linear regression model. For this model w
 
 
 
+
+
